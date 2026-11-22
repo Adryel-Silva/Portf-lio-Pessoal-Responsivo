@@ -5,11 +5,13 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 header {
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -35,6 +37,11 @@ header {
     font-size: 16px;
 }
 
+.barranav img {
+    width: 48px;
+    height: 48px;
+}
+
 main {
     background-color: rgba(9, 10, 12, 1);
     flex-grow: 1;
@@ -45,7 +52,7 @@ main {
     background-color: rgba(9, 10, 12, 1);
     border: 1px solid rgba(230, 224, 210, 1);
     height: 188px;
-    width: 500px;
+    width: 662px;
     display: flex;
     flex-direction: column;
     padding: 2px;
@@ -55,7 +62,7 @@ main {
 
 .cartaoidentidade h2 {
     display: inline-block;
-    margin-right: 150px;
+    margin-right: 200px;
     width: 50%;
     color: rgba(180, 154, 98, 1);
 }
@@ -63,7 +70,6 @@ main {
 .cartaoidentidade p {
     display: inline-block;
     color: rgba(87, 156, 136, 1);
-    gap: 100px;
     background-color: rgba(23, 61, 50, 1);
     border-radius: 20pc;
 }
@@ -94,12 +100,93 @@ main {
     border: 2px solid rgba(52, 58, 54, 1);
     border-radius: 20px;
     position: absolute;
-    left: 37%;
-    top: 10.4%;
+    left: 35%;
+    top: 5.5%;
 }
+
 .agente {
     margin-top: 35px;
     color: rgba(180, 154, 98, 1);
     display: flex;
     gap: 50%;
+}
+
+section {
+    width: 844px;
+    height: 622px;
+    background-color: rgba(9, 10, 12, 1);
+    margin: 20px;
+    justify-self: center;
+    border: 1px solid rgba(180, 154, 98, 1);
+    font-size: 16px;
+}
+
+section img {
+    width: 606px;
+    height: 341;
+    border: 1px solid rgba(180, 154, 98, 1);
+   
+}
+
+section titulos {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.titulos h1 {
+    width: 30%;
+    color: rgba(180, 154, 98, 1);
+    display: inline-block;
+}
+.agente{
+    margin-top: 0;
+    margin-right: 300px;
+}
+.img{
+    justify-self: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+}
+.container p{
+    color: rgba(77, 75, 77, 1);
+}
+.container a{
+    color:rgba(230, 224, 210, 1);
+}
+.container button{
+    width: 24%;
+    margin-left: 5px;
+}
+.container h2{
+    color:rgba(180, 154, 98, 1) ;
+}
+.container h3{
+    color:rgba(180, 154, 98, 1) ;
+}
+.botoes{
+    display: flex;
+    justify-content:flex-start;
+}
+button{
+    color:rgba(180, 154, 98, 1);
+    background-color: inherit;
+    border: 1px solid rgba(180, 154, 98, 1);
+    border-radius: 30px;
+}
+.materias{
+    color: bisque;
+    border-color: bisque;
+}
+.carimbo{
+    width: 150px;
+    color: brown;
+    font-size: 24px;
+    border: 2px solid red;
+   
 }
