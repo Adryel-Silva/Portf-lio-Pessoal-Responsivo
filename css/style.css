@@ -220,11 +220,19 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+.linha-dossie {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
 .grupo-qualidades {
     width: 50%;
     display: flex;
     align-items: flex-start;
     gap: 24px;
+    flex: 1;
+    width: auto;
 }
 .qualidades{
     display: flex;
@@ -266,4 +274,61 @@ button {
     font-size: 24px;
     color: rgba(87, 156, 136, 1);
     width: max-content;
+}
+.dossie{
+    margin-top: 10px;
+    padding: 3px;
+    width: 50%;
+    height: 350px;
+    background-color: rgba(217, 217, 217, 0.04);
+    border: 1px gold solid;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.dossie h1{
+    width: 50%;
+    color: rgba(180, 154, 98, 1);
+}
+.dossie h2{
+    color: rgba(230, 224, 210, 1);
+    font-size: 16px;
+    align-self: flex-end;
+}
+.dossie h3{
+    color: rgba(230, 224, 210, 1);
+}
+.dossie h4{
+    margin-top: 10px;
+    color: rgba(180, 154, 98, 1);
+}
+.caracteristica{
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.nivel{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
+.forças {
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.forças p{
+        color: rgba(23, 61, 50, 1);
+}
+.dossie p{
+    color: rgba(77, 75, 77, 1);
 }
