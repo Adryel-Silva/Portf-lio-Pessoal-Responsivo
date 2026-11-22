@@ -125,13 +125,13 @@ section img {
     width: 606px;
     height: 341;
     border: 1px solid rgba(180, 154, 98, 1);
-   
+
 }
 
 section titulos {
     display: flex;
     justify-content: space-between;
-   
+
 
 }
 
@@ -140,60 +140,73 @@ section titulos {
     color: rgba(180, 154, 98, 1);
     display: inline-block;
 }
-.agente{
+
+.agente {
     margin-top: 0;
     margin-right: 300px;
 }
-.img{
+
+.img {
     justify-self: center;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 2px;
 }
-.container p{
+
+.container p {
     color: rgba(77, 75, 77, 1);
 }
-.container a{
-    color:rgba(230, 224, 210, 1);
+
+.container a {
+    color: rgba(230, 224, 210, 1);
 }
-.container button{
+
+.container button {
     width: 24%;
     margin-left: 5px;
 }
-.container h2{
-    color:rgba(180, 154, 98, 1) ;
+
+.container h2 {
+    color: rgba(180, 154, 98, 1);
 }
-.container h3{
-    color:rgba(180, 154, 98, 1) ;
+
+.container h3 {
+    color: rgba(180, 154, 98, 1);
 }
-.botoes{
+
+.botoes {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
-button{
-    color:rgba(180, 154, 98, 1);
+
+button {
+    color: rgba(180, 154, 98, 1);
     background-color: inherit;
     border: 1px solid rgba(180, 154, 98, 1);
     border-radius: 30px;
 }
-.materias{
+
+.materias {
     color: bisque;
     border-color: bisque;
 }
-.carimbo{
+
+.carimbo {
     width: 150px;
     color: brown;
     font-size: 24px;
     border: 2px solid red;
     position: relative;
-   left: 60%;
-   top: -50px;
-   transform: rotate(18deg);
+    left: 60%;
+    top: -50px;
+    transform: rotate(18deg);
 }
-.linha{
+
+.linha {
     height: 42px;
     display: flex;
     justify-content: space-between;
@@ -201,8 +214,56 @@ button{
     padding: 10px;
     background-color: rgba(217, 217, 217, 0.04);
 }
-.linha p{
+
+.linha p {
     color: rgba(77, 75, 77, 1);
     font-weight: bold;
     font-size: 24px;
+}
+.grupo-qualidades {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.qualidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.qualidades svg {
+
+    width: 32px;
+    height: 32px;
+}
+
+.qualidades a{
+    margin: 16px;
+    align-items: center;
+    color: rgba(87, 156, 136, 1);
+    height: 62px;
+    width: 62px;
+    padding-left: 10px;
+}
+.qualidades b {
+    color: rgba(87, 156, 136, 1);
+    margin-left: 16px;
+}
+.qualidades b svg{
+    align-self: center;
+    height: 45px;
+}
+.describequalities{
+    margin-top: 19px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:110px;
+}
+.describequalities p {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(87, 156, 136, 1);
+    width: max-content;
 }
