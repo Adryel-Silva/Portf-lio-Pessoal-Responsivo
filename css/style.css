@@ -220,6 +220,7 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
 .linha-dossie {
     display: flex;
     align-items: flex-start;
@@ -234,18 +235,20 @@ button {
     flex: 1;
     width: auto;
 }
-.qualidades{
+
+.qualidades {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .qualidades svg {
 
     width: 32px;
     height: 32px;
 }
 
-.qualidades a{
+.qualidades a {
     margin: 16px;
     align-items: center;
     color: rgba(87, 156, 136, 1);
@@ -253,29 +256,34 @@ button {
     width: 62px;
     padding-left: 10px;
 }
+
 .qualidades b {
     color: rgba(87, 156, 136, 1);
     margin-left: 16px;
 }
-.qualidades b svg{
+
+.qualidades b svg {
     align-self: center;
     height: 45px;
 }
-.describequalities{
+
+.describequalities {
     margin-top: 19px;
     z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap:110px;
+    gap: 110px;
 }
+
 .describequalities p {
     font-weight: bold;
     font-size: 24px;
     color: rgba(87, 156, 136, 1);
     width: max-content;
 }
-.dossie{
+
+.dossie {
     margin-top: 10px;
     padding: 3px;
     width: 50%;
@@ -286,131 +294,156 @@ button {
     justify-content: flex-start;
     flex-direction: column;
 }
-.title{
+
+.title {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-.dossie h1{
+
+.dossie h1 {
     width: 50%;
     color: rgba(180, 154, 98, 1);
 }
-.dossie h2{
+
+.dossie h2 {
     color: rgba(230, 224, 210, 1);
     font-size: 16px;
     align-self: flex-end;
 }
-.dossie h3{
+
+.dossie h3 {
     color: rgba(230, 224, 210, 1);
 }
-.dossie h4{
+
+.dossie h4 {
     margin-top: 10px;
     color: rgba(180, 154, 98, 1);
 }
-.caracteristica{
+
+.caracteristica {
     margin-top: 10px;
     display: flex;
     align-items: flex-start;
     gap: 32px;
 }
 
-.nivel{
+.nivel {
     display: flex;
     flex-direction: column;
     gap: 32px;
     align-items: flex-start;
 }
+
 .forças {
     margin-right: 250px;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.forças p{
-        color: rgba(23, 61, 50, 1);
+
+.forças p {
+    color: rgba(23, 61, 50, 1);
 }
-.dossie p{
+
+.dossie p {
     color: rgba(77, 75, 77, 1);
 }
-.container-r{
+
+.container-r {
     margin: 3px;
     width: 100%;
     height: fit-content;
     display: flex;
 }
-.arsenal{
+
+.arsenal {
     width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.arsenal h5{
+
+.arsenal h5 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16.8px;
     color: rgba(201, 162, 75, 1);
 }
-.sobre{
+
+.sobre {
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
-.sobre p{
+
+.sobre p {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16.8;
-    color:rgba(236, 230, 216, 1);
-    
+    color: rgba(236, 230, 216, 1);
+
 }
-.sobre a{
+
+.sobre a {
     display: flex;
 }
-.hobbie{
+
+.hobbie {
     background-color: rgba(236, 230, 216, 1);
     transition: 1s;
     user-select: none;
 }
-.hobbie:hover{
-    background:transparent
+
+.hobbie:hover {
+    background: transparent
 }
-.sobre hr{
+
+.sobre hr {
     margin-top: 4px;
     border: 1px solid rgba(35, 42, 54, 1);
 }
-.arsenal hr{
+
+.arsenal hr {
     margin-top: 4px;
     border: 1px solid rgba(35, 42, 54, 1);
 }
-.oi{
+
+.oi {
     background-color: blue;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     justify-content: space-between;
     gap: 2px;
 }
-.oi h1{
+
+.oi h1 {
     font-size: 32px;
     color: aqua;
     align-self: center;
 }
-.quadro-projeto{
+
+.quadro-projeto {
     margin: 3%;
     display: flex;
     border: 1px solid gold;
     width: 80%;
     height: 50%;
 }
-.quadro-projeto h1{
+
+.quadro-projeto h1 {
     align-self: first baseline;
     font-size: 24px;
     color: red;
 }
-.quadro-projeto img{
+
+.quadro-projeto img {
     width: 52%;
 }
-.distro-quadros{
+
+.distro-quadros {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
