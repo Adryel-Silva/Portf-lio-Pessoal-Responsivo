@@ -495,3 +495,33 @@ button {
     flex-grow: 1;
     border-radius: 30px;
 }
+
+.contatos {
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    border: 1px solid gold;
+}
+
+.logos-contato {
+    margin-top: 24px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    background-color: brown;
+    color: blue;
+    font-size: 64px;
+    display: inline-block;    
+}
+
+.logos-contato h2 {
+    display: inline-block;
+    font-size: 24px;
+    flex-grow: 1;
+}
