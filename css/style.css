@@ -412,7 +412,6 @@ button {
 }
 
 .oi {
-    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -421,7 +420,7 @@ button {
 
 .oi h1 {
     font-size: 32px;
-    color: aqua;
+    color: rgba(230, 224, 210, 1);
     align-self: center;
 }
 
@@ -434,9 +433,9 @@ button {
 }
 
 .quadro-projeto h1 {
+    color: rgba(180, 154, 98, 1);
     align-self: first baseline;
     font-size: 24px;
-    color: red;
 }
 
 .quadro-projeto img {
@@ -449,6 +448,5 @@ button {
     flex-grow: 1;
     height: 90%;
     width: 100%;
-    background-color: blueviolet;
     align-items: center;
 }
