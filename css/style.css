@@ -332,3 +332,50 @@ button {
 .dossie p{
     color: rgba(77, 75, 77, 1);
 }
+.container-r{
+    margin: 3px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.arsenal{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.arsenal h5{
+    font-size: 16.8px;
+    color: rgba(201, 162, 75, 1);
+}
+.sobre{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.sobre p{
+    font-size: 16.8;
+    color:rgba(236, 230, 216, 1);
+    
+}
+.sobre a{
+    display: flex;
+}
+.hobbie{
+    background-color: rgba(236, 230, 216, 1);
+    transition: 1s;
+    user-select: none;
+}
+.hobbie:hover{
+    background:transparent
+}
+.sobre hr{
+    margin-top: 4px;
+    border: 1px solid rgba(35, 42, 54, 1);
+}
+.arsenal hr{
+    margin-top: 4px;
+    border: 1px solid rgba(35, 42, 54, 1);
+}
