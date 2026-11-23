@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(9, 10, 12, 1);
+    overflow-x: hidden;
 }
 
 header {
@@ -45,6 +46,7 @@ header {
 
 main {
     flex-grow: 1;
+    margin-bottom: 32px;
 }
 
 .cartaoidentidade {
@@ -589,4 +591,42 @@ button {
     right: 24px;
     color: rgba(180, 154, 98, 1);
     font-size: 48px;
+}
+footer{
+    margin-top: 5px;
+}
+.footer-nome{
+    display:flex;
+    justify-content: space-between;
+}
+.footer-nome h1{
+    color: rgba(180, 154, 98, 1);
+}
+.footer-nome p{
+    color:rgba(52, 58, 54, 1);
+    justify-self: baseline;
+}
+.logos-footer{
+    background-color: aliceblue;
+    flex-grow: 1;
+    display: flex;
+    gap: 16px;
+    padding: 0 33% 0;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.missao{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.missao h2{
+    text-align: center;
+}
+.linhade-baixo{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    background-color: aliceblue;
 }
