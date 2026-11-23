@@ -386,7 +386,7 @@ button {
 .oi{
     background-color: blue;
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
     justify-content: space-between;
     gap: 2px;
 }
@@ -396,10 +396,11 @@ button {
     align-self: center;
 }
 .quadro-projeto{
+    margin: 3%;
     display: flex;
     border: 1px solid gold;
-    width: 40%;
-    height: 40%;
+    width: 80%;
+    height: 50%;
 }
 .quadro-projeto h1{
     align-self: first baseline;
@@ -408,4 +409,13 @@ button {
 }
 .quadro-projeto img{
     width: 52%;
+}
+.distro-quadros{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 90%;
+    width: 100%;
+    background-color: blueviolet;
+    align-items: center;
 }
