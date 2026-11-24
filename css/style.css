@@ -595,6 +595,9 @@ button {
 footer{
     margin-top: 5px;
 }
+footer hr{
+    border: 1px solid rgba(35, 42, 54, 1);
+}
 .footer-nome{
     display:flex;
     justify-content: space-between;
@@ -607,26 +610,29 @@ footer{
     justify-self: baseline;
 }
 .logos-footer{
-    background-color: aliceblue;
+    color: rgba(180, 154, 98, 1);
     flex-grow: 1;
     display: flex;
     gap: 16px;
     padding: 0 33% 0;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 34px;
 }
 .missao{
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .missao h2{
     text-align: center;
+    color: rgba(87, 156, 136, 1);
 }
 .linhade-baixo{
+    color:rgba(180, 154, 98, 1) ;
     display: flex;
     justify-content: center;
     gap: 2px;
-    background-color: aliceblue;
+}
+.linhade-baixo i{
+    color: rgba(180, 154, 98, 1);
 }
