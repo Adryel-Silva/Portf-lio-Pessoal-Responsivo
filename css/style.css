@@ -5,6 +5,7 @@
 }
 
 body {
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,9 +18,11 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: brown;
     justify-content: space-between;
     background-color: rgba(9, 10, 12, 1);
+}
+header hr {
+    display: none;
 }
 
 .barranav {
@@ -48,7 +51,9 @@ main {
     flex-grow: 1;
     margin-bottom: 32px;
 }
-
+.identidade{
+    display: none;
+}
 .cartaoidentidade {
     border-radius: 10px;
     background-color: rgba(9, 10, 12, 1);
@@ -635,4 +640,85 @@ footer hr{
 }
 .linhade-baixo i{
     color: rgba(180, 154, 98, 1);
+}
+@media (max-width: 775px){
+body{
+    overflow-x: hidden;
+    padding: 1px;
+   background-color: brown;
+}
+header hr {
+    display: block;
+    margin-bottom: 3px;
+}
+header{
+    padding: 3px;
+}
+.logo{
+    display: none;
+}
+.barranav a{
+    font-size: 12px;
+}
+.barranav img{
+    position: absolute;
+    left: 1%;
+    top:0%;
+}
+.identidade{
+    flex-grow: 1;
+    margin-top: 12px;
+    display: block;
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.identidade img {
+    display: inline-block;
+    width: 48px;
+}
+.identidade h2 {
+    margin-right: 43px;
+    color: rgba(180, 154, 98, 1);
+    font-size: 12px;
+    width: 250px;
+    display: inline-block;
+}
+
+.identidade p {
+    margin-top: 2px;
+    color: rgba(87, 156, 136, 1);
+    background-color: rgba(23, 61, 50, 1);
+    border-radius: 20pc;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.cartaoidentidade {
+    display: none;
+}
+.cartaoidentidade p{
+    display: none;
+}
+.cartaoidentidade hr{
+    display: none;
+}
+section{
+    width: 50%;
+    height: fit-content;
+}
+section img{
+    width: 50%;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 1000px
+}
+.linha-dossie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 }
