@@ -666,11 +666,115 @@ footer hr {
     color: rgba(180, 154, 98, 1);
 }
 
-@media (max-width: 775px) {
-    body {
-        background-color: brown;
-    }
+.intelligence {
+    background: #101010;
+    color: #eee;
+    padding: 60px 5%;
+    height: fit-content;
+    margin-bottom: 1%;
+}
 
+.intelligence-header {
+    margin-bottom: 35px;
+    border-left: 3px solid #b89b5e;
+    padding-left: 20px;
+}
+
+.intelligence-header span {
+    font-family: monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #b89b5e;
+}
+
+.intelligence-header h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 12px 0;
+}
+
+.intelligence-header p {
+    color: #888;
+    font-size: 13px;
+}
+
+.dossier-container {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+.dossier {
+    background: #191919;
+    border: 1px solid #49402d;
+
+    padding: 22px;
+
+    position: relative;
+
+    transition: all 0.3s ease;
+}
+
+.dossier-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    border-bottom: 1px solid #49402d;
+
+    padding-bottom: 12px;
+}
+
+.dossier-header span {
+    font-family: monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #b89b5e;
+}
+
+.dossier-header .classified {
+    color: #c94c45;
+
+    border: 1px solid #c94c45;
+
+    padding: 5px 8px;
+
+    transform: rotate(-4deg);
+
+    font-weight: bold;
+}
+
+.dossier h3 {
+    font-family: Georgia, serif;
+
+    font-size: 17px;
+
+    color: #d6bd83;
+
+    margin: 22px 0 12px;
+}
+
+.description {
+    color: #aaa;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+
+    min-height: 75px;
+}
+
+.dossier-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 775px) {
     header hr {
         display: block;
         margin-bottom: 3px;
@@ -900,6 +1004,130 @@ footer hr {
     }
     .materias-baixo{
         display: none;
+    }
+        .intelligence {
+        padding: 45px 4%;
+    }
+
+    .dossier-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .dossier {
+        padding: 18px;
+    }
+
+    .dossier h3 {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .intelligence {
+        padding: 35px 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .intelligence-header {
+        padding-left: 12px;
+        margin-bottom: 25px;
+    }
+
+    .intelligence-header h2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .intelligence-header p {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .intelligence-header span {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    .dossier-container {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .dossier {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        padding: 18px;
+    }
+
+    .dossier-header {
+        gap: 8px;
+    }
+
+    .dossier-header span {
+        font-size: 9px;
+    }
+
+    .dossier-header .classified {
+        font-size: 8px;
+        padding: 4px 6px;
+    }
+
+    .dossier h3 {
+        font-size: 16px;
+        line-height: 1.4;
+        margin: 18px 0 10px;
+    }
+
+    .description {
+        font-size: 12px;
+        line-height: 1.7;
+        min-height: auto;
+    }
+
+    .dossier-info {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .dossier-info span {
+        font-size: 9px;
+    }
+
+    .dossier-info strong {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .intelligence {
+        padding: 25px 12px;
+    }
+
+    .intelligence-header h2 {
+        font-size: 19px;
+    }
+
+    .dossier {
+        padding: 14px;
+    }
+
+    .dossier h3 {
+        font-size: 14px;
+    }
+
+    .dossier-info {
+        gap: 10px;
     }
    
 }
