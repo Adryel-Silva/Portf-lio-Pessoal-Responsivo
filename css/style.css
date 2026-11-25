@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -668,7 +668,6 @@ footer hr {
 
 @media (max-width: 775px) {
     body {
-        overflow-x: hidden;
         background-color: brown;
     }
 
@@ -792,8 +791,12 @@ footer hr {
         display: flex;
         flex-direction: column;
         gap: 13px;
-        width: 1000px
     }
+    .botoes {
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
 
     .linha-dossie {
         display: flex;
@@ -888,4 +891,15 @@ footer hr {
     .linkedin{
         height: auto;
     }
+    footer{
+        height: fit-content;
+        contain: content;
+    }
+    .footer-nome h1{
+        font-size: 16px;
+    }
+    .materias-baixo{
+        display: none;
+    }
+   
 }
