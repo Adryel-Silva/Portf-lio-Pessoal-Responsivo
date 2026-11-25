@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     width: 100%;
@@ -667,6 +670,7 @@ footer hr {
 }
 
 .intelligence {
+    align-self: center;
     background: #101010;
     color: #eee;
     padding: 60px 5%;
