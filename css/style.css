@@ -856,4 +856,36 @@ footer hr {
         width: 50vw;
         gap: 0px;
     }
+    .distro-quadros{
+        width: 100vw;
+    }
+    .quadro-projeto h1{
+        font-size: 10px;
+    }
+    .arsenal{
+        width: 112px;
+    }
+    .container-r{
+       display: flex;
+       justify-content: flex-start;
+       
+    }
+    .contatos{
+        height: 350px;
+        width: 100vw;
+        margin: 0;
+    }
+    .logos-contato {
+    
+        font-size: 24px;
+    }
+    .git{
+        height: auto;
+    }
+    .email{
+        height: auto;
+    }
+    .linkedin{
+        height: auto;
+    }
 }
