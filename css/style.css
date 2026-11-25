@@ -43,12 +43,15 @@ header hr {
 .barranav ul a {
     text-decoration: none;
     color: rgba(230, 224, 210, 1);
-    font-size: 16px;
+    font-size: 32px;
 }
 
 .barranav img {
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
+}
+.nivel{
+    color: white;
 }
 
 main {
@@ -171,7 +174,7 @@ section titulos {
 }
 
 .container p {
-    color: rgba(77, 75, 77, 1);
+    color: rgb(126, 125, 126);
 }
 
 .container a {
@@ -1029,11 +1032,6 @@ footer hr {
     .description {
         font-size: 12px;
     }
-}
-
-
-@media (max-width: 600px) {
-
     .intelligence {
         padding: 35px 16px;
         width: 100%;
@@ -1111,27 +1109,4 @@ footer hr {
     }
 }
 
-
-@media (max-width: 360px) {
-
-    .intelligence {
-        padding: 25px 12px;
-    }
-
-    .intelligence-header h2 {
-        font-size: 19px;
-    }
-
-    .dossier {
-        padding: 14px;
-    }
-
-    .dossier h3 {
-        font-size: 14px;
-    }
-
-    .dossier-info {
-        gap: 10px;
-    }
    
-}
