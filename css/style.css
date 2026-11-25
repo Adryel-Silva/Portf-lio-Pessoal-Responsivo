@@ -277,6 +277,10 @@ button {
     height: 45px;
 }
 
+.qualidades hr {
+    display: none;
+}
+
 .describequalities {
     margin-top: 19px;
     z-index: 1;
@@ -291,6 +295,10 @@ button {
     font-size: 24px;
     color: rgba(87, 156, 136, 1);
     width: max-content;
+}
+
+.describequalities hr {
+    display: none;
 }
 
 .dossie {
@@ -726,12 +734,15 @@ footer hr {
     .cartaoidentidade h2 {
         display: none;
     }
-    .cartaoidentidade ul{
+
+    .cartaoidentidade ul {
         width: 50%;
     }
+
     .cartaoidentidade h4 {
         display: none;
     }
+
     .cartaoidentidade h5 {
         margin-top: 68px;
         margin-left: 280px;
@@ -744,8 +755,9 @@ footer hr {
     .cartaoidentidade hr {
         display: none;
     }
-    .cartaoidentidade img{
-        
+
+    .cartaoidentidade img {
+
         position: relative;
         top: -175px;
         left: 249px;
@@ -753,12 +765,27 @@ footer hr {
     }
 
     section {
-        width: 50%;
+        width: 95vw;
         height: fit-content;
+        justify-content: center;
     }
 
     section img {
         width: 50%;
+        margin-left: 25%;
+    }
+
+    .titulos {
+        padding: 2px;
+        font-size: 7px;
+        display: flex;
+        gap: 125px;
+    }
+
+    .carimbo {
+        font-size: 16px;
+        border-style: dashed;
+        width: fit-content;
     }
 
     .botoes {
@@ -771,6 +798,47 @@ footer hr {
     .linha-dossie {
         display: flex;
         flex-direction: column;
+        align-content: flex-start;
+        width: 100vw;
+    }
+    .grupo-qualidades{
+        align-self: center;
+        display: flex;
+        padding: 3px;
+        flex-direction: row;
+        align-content: flex-start;
         justify-content: space-between;
+        gap: 4px;
+        margin: 3px;
+    }
+    .qualidades{
+        width: fit-content;
+        display: flex;
+        padding: 0;
+        margin-left: 1px;
+        margin-right: 3px;
+
+    }
+
+    .qualidades a{
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .qualidades b {
+        display: none;
+    }
+
+    .qualidades hr {
+        display: block;
+    }
+
+    .describequalities {
+        margin-left: -2px;
+        display: inline-block;
+        margin-top: 0;
+        display: flex;
+        gap: 36px
     }
 }
