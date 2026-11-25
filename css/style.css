@@ -461,6 +461,10 @@ button {
     align-self: first baseline;
     font-size: 24px;
 }
+.quadro-projeto a{
+    color: #888;
+    font-size: 16px;
+}
 
 .quadro-projeto img {
     width: 52%;
@@ -795,8 +799,8 @@ footer hr {
         display: none;
     }
 
-    .barranav a {
-        font-size: 12px;
+    .barranav ul a {
+        font-size: 16px;
     }
 
     .barranav img {
