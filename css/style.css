@@ -841,4 +841,19 @@ footer hr {
         display: flex;
         gap: 36px
     }
+    .dossie{
+        width: 100vw;
+        height: fit-content;
+    }
+    .forças{
+        margin: 0;
+    }
+    .nivel{
+        margin-right: 2px;
+    }
+    .caracteristica{
+        display: flex;
+        width: 50vw;
+        gap: 0px;
+    }
 }
